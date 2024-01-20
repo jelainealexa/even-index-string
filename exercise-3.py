@@ -1,7 +1,7 @@
 # Print characters from a string that are present at an even index number
 
 # Enter a string
-input_string = input("Enter a string: ")
+input_string = input("Hi! Please enter a word: ")
 
 # Declare the word variable
 string = input_string
