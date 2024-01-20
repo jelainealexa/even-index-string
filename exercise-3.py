@@ -13,4 +13,6 @@ string = input_string
 # Step: 2
 for i in range(1, len(string), 2):
     # Print characters at the even index number
+    print(f"Original string is {string}")
+    print("Printing only even index characters")
     print(string[i])
