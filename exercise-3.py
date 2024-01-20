@@ -6,6 +6,10 @@ input_string = input("Enter a string: ")
 # Declare the word variable
 string = input_string
 
+# Print original string and even index characters
+print(f"Original string is {string}")
+print("Printing only even index characters")
+
 # Iterate each character of the string
 
 # Start: 1
@@ -13,6 +17,4 @@ string = input_string
 # Step: 2
 for i in range(1, len(string), 2):
     # Print characters at the even index number
-    print(f"Original string is {string}")
-    print("Printing only even index characters")
     print(string[i])
