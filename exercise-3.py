@@ -5,9 +5,9 @@ word = "polytechnic"
 
 # Iterate each character of the string
 
-# Start: 
-# Stop: 
-# Step: 
-for i in range(11):
+# Start: 0
+# Stop: 10
+# Step: 2
+for i in range(0, 10, 2):
     # Print characters at the even index number
     print(word[i])
