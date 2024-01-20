@@ -1,13 +1,16 @@
 # Print characters from a string that are present at an even index number
 
+# Enter a string
+input_string = input("Enter a string: ")
+
 # Declare the word variable
-word = "polytechnic"
+string = input_string
 
 # Iterate each character of the string
 
 # Start: 1
-# Stop: 11
+# Stop: length of the word
 # Step: 2
-for i in range(1, 11, 2):
+for i in range(1, len(string), 2):
     # Print characters at the even index number
-    print(word[i])
+    print(string[i])
